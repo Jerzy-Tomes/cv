@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com) and Jerzy Tomes (visual changes, lualatex, etc)
+% 
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+\hyphenation{capabilities, Postman}
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.7\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Jerzy Tomes \\ % Your name
+\url{jerzy.tomes@gmail.com} \\ % Your email address
+505 845 539 \\ % Your phone number
+\Sep
+\url{linkedin.com/in/jerzy-tomes}
+\Sep\\
+automation examples:
+\url{github.com/Jerzy-Tomes}
+\Sep % Some whitespace
+% \textbf{Address} \\
+% 123 Broadway \\ % Address 1
+% City, State 12345 \\ % Address 2
+% Country \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Jerzy Tomes} % Large heading - your name
+
+\cvsubheading{Software QA Engineer Candidate} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{Recent graduate of MSc studies in Biomedical Engineering,
+with specialty in Medical Informatics, at Wroclaw University of Science and
+Technology. My master thesis concerned use of Machine Learning in diagnostics.
+Following my decision to become a tester, I obtained an ISTQB
+certificate and started learning testing tools. 
+Currently, I'm gaining experience with crowdtesting sites.
+
+I am searching for a Junior or Intern position in Software QA sector, which
+will allow me to start IT career and build up experience.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education and Certification}
+
+%------------------------------------------------
+\CVItem{2021, ISTQB Foundation Level certificate}{Acquired after preparation
+course with testuj.pl}
+
+%------------------------------------------------
+
+\CVItem{2019 - 2020, Wroclaw University of Science and Technology}{MSc in
+Biomedical Engineering, specialty: Medical Informatics}
+
+%------------------------------------------------
+
+
+\CVItem{2015 - 2019, Wroclaw University of Science and Technology}{BSc in
+Biomedical Engineering, specialty: Medical Informatics}
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{2015 - 2020: \textit{miscellaneous temporary jobs}}
+
+\CVItem{2018, 2019: \textit{election commission member}}
+
+\CVItem{2021: \textit{crowdtesting platforms: utest.com, test.io,
+usertesting.com}}
+
+%------------------------------------------------
+
+% \CVItem{Jan 2008 - Oct 2012, \textit{Computer Repair Specialist}, Buy More}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+%
+%\CVSection{Communication Skills}
+%
+%%------------------------------------------------
+%
+%\CVItem{2015, \textit{Oral Presentation}, California Business Conference}{Presented research I conducted for my Masters of Engineering degree.}
+%
+%%------------------------------------------------
+%
+%\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%
+%%------------------------------------------------
+%
+%\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Work Skills}
+
+%------------------------------------------------
+%------------------------------------------------
+
+\CVItem{Skills}
+{\begin{itemize}
+    \item[\bluebullet] Theory of testing and software development process
+%    \item[\bluebullet] Experience with office suites (Libre and MS) and \LaTeX 
+    \item[\bluebullet] Git, Kanban Boards, Jira basics and teamwork capabilities
+    \item[\bluebullet] REST and SOAP API testing in SOAP UI and Postman
+    \item[\bluebullet] Automation with Selenium and Cypress.io, BDD testing
+    \item[\bluebullet] Python, shell, SQL, Java, Matlab, JavaScript
+    \item[\bluebullet] Meticulousness and test to break attitude
+    \item[\bluebullet] Inclination to learn and experience new things
+\end{itemize}}
+%------------------------------------------------
+%
+%\CVItem{Programming Languages}
+%{\parbox{0.5\textwidth}{
+%        \begin{multicols}{3}
+%        \begin{itemize}
+%                \item[\bluebullet] Python
+%                \item[\bluebullet] Shell
+%                \item[\bluebullet] SQL
+%                \item[\bluebullet] Java 
+%                \item[\bluebullet] Matlab
+%        \end{itemize}
+%\end{multicols}}}
+%
+%
+\CVItem{Languages} 
+{Polish (native), English (advanced), learning or re-learning: French, German,
+Russian (elementary), Arabic (beginner)}
+% {\begin{multicols}{2}
+%         \begin{itemize}
+%                 \item[\bluebullet] English (advanced) 
+%                 \item[\bluebullet] French (elementary)
+%                 \item[\bluebullet] Russian (elementary) 
+%                 \item[\bluebullet] Arabic (beginner)
+%                 \item[\bluebullet] Polish (native)
+%         \end{itemize}
+%         \end{multicols}}
+% 
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+%
+%\clearpage % Start a new page
+%
+%\userinformation % Print your information in the left column
+%
+%\framebreak % End of the first column
+%
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Awards}
+%
+%------------------------------------------------
+%
+%\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
+%
+%------------------------------------------------
+%
+%\Sep  Extra whitespace after the end of a major section
+%
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Software QA, Machine Learning}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Language learning, PICO-8, hiking, running}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
