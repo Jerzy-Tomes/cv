@@ -33,6 +33,7 @@
 \usepackage{multicol}
 
 \usepackage{url} % URLs
+\usepackage{hyperref} % make them clickable
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for custom colours
 
@@ -59,7 +60,9 @@
 \tikz{\draw[dash pattern=on 1pt off 1pt on 2pt off 1pt on 2pt off 1pt on 2pt
         off 2pt on 1pt off 2pt on 1pt off 1pt on 2pt off 1pt on 1pt off 2pt on
         2pt off 1pt on 2pt off 1pt on 1pt off 1pt on 1pt off 2pt on 2pt off 1pt
-        on 1pt off 1pt on 2pt off 1pt on 2pt off 3pt, color=NavyBlue, line width=1.5pt,yshift=0](0,0) -- (0,\textheight);}
+        on 1pt off 1pt on 2pt off 1pt on 2pt off 3pt, color=NavyBlue, line
+        width=1.5pt,yshift=0](0,0) -- (0,\textheight);} % sorry not sorry.
+        % replace with something sensible before reuse
 \hfill\mbox{}
 \end{staticcontents}
  
